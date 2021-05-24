@@ -1,0 +1,250 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.navbar li {
+    float: right;
+    list-style: none;
+}
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 12;
+}
+.navbar a {
+    display: block;
+    padding: 20px 50px 20px 50px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Permanent Marker', cursive;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+.marg {
+    margin-left: 30px;
+}
+h2 {
+    font-family: 'Staatliches', cursive;
+    margin-left: 30px;
+}
+h1 {
+    font-family: 'Staatliches', cursive;
+    margin-left: 30px;
+    text-align: center;
+    font-size: 50px;
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin-bottom: 300px;
+}
+.forste, .siste {
+    margin-bottom: 650px;
+}
+.navbar {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    background-color: #ffc288;
+}
+li a:hover {
+    background-color: #fcecdd;
+}
+.topp {
+    margin-top: 70px;
+}
+footer {
+    bottom: 0;
+    position: absolute;
+    background-color: #fcecdd;
+    width: 100%;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+.bunn {
+    text-align: center;
+    font-size: 14px;
+}
+#starttekst {
+    background-color: rgba(76,175,80, 0.3);
+    text-align: center;
+    padding: 30px
+}
+#navn {
+    text-align: center;
+    font-size: 50px;
+}
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bildeknapp {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.link{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 40px;
+}
+
+#interesser {
+    text-align: center;
+}
+.podcast {
+    padding-bottom: 90px;
+}
+.podcast h2{
+    font-size: 40px;
+    font-family: 'Bungee Shade', cursive;
+}
+.vintage {
+    padding-bottom: 90px;
+}
+.film {
+    padding-bottom: 0px;
+}
+.film h2 {
+    font-family: 'Zen Dots', cursive;
+}
+.itekst {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.ibilde {
+    padding-bottom: 10px;
+    padding-top: 20px
+}
+.farge{
+    color: #FEA82F;
+}
+.kolonne {
+    padding-top: 40px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+
+    body {
+        margin-bottom: 200px;
+    }
+    /*legg til ulike mengder px for de ulike sidene når disse har ferdig innhold for å tilpasse til lengden på siden*/
+    #logo {
+        width: 200px;
+        height: 200px;
+    }
+    .navbar a {
+        padding: 10px 15px 10px 15px;
+        font-size: 11;
+    }
+    .atekst {
+        width: 80%;
+    }
+    #kart {
+        width: 80%;
+    }
+    .sistebilde {
+        margin-bottom: 100px;
+    }
+}
+.tidsrom {
+    font-size: 12px;
+    color: gray;
+}
+.kontakt {
+    font-size: 80%;
+}
+button {
+    background-color: #fcecdd;
+    border: 2px solid white;
+    width: 120px;
+    padding: 3px;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    left: 50%;
+}
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#master {
+    background-color: #FEA82F;
+    width: 100%;
+    padding: 20px;
+    position: relative;
+}
+#bachelor {
+    background-color: rgba(76,175,80, 0.3);
+    width: 100%;
+    padding: 20px;
+    position: relative;
+}
+#master img, #bachelor img {
+    width: 80%;
+    padding-top: 20px;
+}
+#master, #bachelor {
+    width: 100%;
+    display: inline-block;
+}
+.atekst h2 {
+        margin-left: 0px;
+    }
+li {
+    font-family: 'Montserrat', sans-serif;
+}
+.ebilde {
+    padding-bottom: 40px;
+    padding-top: 30px;
+    width: 80%;
+}
+@media screen and (min-width: 600px){
+    .kolonne {
+        float: left;
+        width: 50%;
+    }
+    #master .atekst {
+        padding-left: 100px;
+        padding-top: 40px;
+        width: 30%;
+        float: left;
+    }
+    #bachelor .atekst {
+        padding-right: 150px;
+        padding-top: 40px;
+        width: 30%;
+        float: right;
+    }
+    #master img {
+        float: right;
+        width: 50%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    #bachelor img {
+        width: 50%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
